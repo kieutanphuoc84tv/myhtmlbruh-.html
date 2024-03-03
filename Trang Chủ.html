@@ -1,0 +1,103 @@
+<!--- web trang chủ-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="btnhom2.css">
+    <title>Web du lịch</title>
+    <style>
+     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 50px;
+      background-color: #000000;
+    }
+    body {
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    header {
+      background-color: #333;
+      padding: 10px;
+      color: #fff;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    main {
+      background-color: #000000;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    p {
+      line-height: 1.5;
+    }
+    .image-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: 750px;
+    }
+    footer {
+      background-color: #ffffff;
+      padding: 10px;
+      color: #000000;
+      text-align: center;
+    }
+
+    
+    </style>
+</head>
+<body>
+  
+
+<header>
+    <header style="background-color: #000000; color: #ffffff;"> 
+        <h1>CHÀO MỪNG BẠN ĐÃ ĐẾN VIETNAM TRAVEL</h1>
+        <ul>
+          <video id="video2" width="2080px;" height="980px;" autoplay controls muted>
+            <source src="C:\Users\PC\Downloads\videoplayback (1).mp4" type="video/mp4" alt="video về Việt Nam">
+        </video>
+        <script>
+          document.getElementById('video2').play();
+        </script>
+</header>
+
+
+<nav>
+    <button onclick="window.location.href='Thông Tin.html'">Thông tin giá vé du lịch</button>
+    <button onclick="window.location.href='Thành Phố Trà Vinh.html'">Thành phố Trà Vinh </button>
+    <button onclick="window.location.href='Thành Phố Cần Thơ.html'">Thành Phố Cần Thơ</button>
+    <button onclick="window.location.href='Đảo Phú Quốc.html'">Đảo Phú Quốc</button>
+
+    
+</nav>
+
+<main>
+
+</main>
+
+<script>
+    function showContent(contentId) {
+        const contents = document.querySelectorAll('.content');
+        contents.forEach(content => content.style.display = 'none');
+        document.getElementById(contentId).style.display = 'block';
+    }
+</script>
+
+</body>
+<ul> 
+<footer> 
+  
+</nav>
+<p>&copy;  VIETNAM Travel. All rights reserved.</p>
+</ul>
+</footer>
+</html>
